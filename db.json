@@ -19,8 +19,7 @@
       "staff_id": "7",
       "service_ids": ["2", "5"],
       "start": 1756123800000,
-      "end": 1756125600000,
-      "color": "#f39c12"
+      "end": 1756125600000
     },
     {
       "id": "13",
@@ -30,8 +29,7 @@
       "staff_id": "2",
       "service_ids": ["1", "2"],
       "start": 1756296600000,
-      "end": 1756298400000,
-      "color": "#f39c12"
+      "end": 1756298400000
     },
     {
       "id": "14",
@@ -41,8 +39,7 @@
       "staff_id": "3",
       "service_ids": ["1", "2", "3"],
       "start": 1756728900000,
-      "end": 1756730700000,
-      "color": "#f39c12"
+      "end": 1756730700000
     },
     {
       "id": "20",
@@ -52,8 +49,7 @@
       "staff_id": "7",
       "service_ids": ["1", "2", "5"],
       "start": 1755178500000,
-      "end": 1755180300000,
-      "color": "#e91e63"
+      "end": 1755180300000
     },
     {
       "id": "23",
@@ -63,8 +59,7 @@
       "staff_id": "2",
       "service_ids": ["1", "2", "6"],
       "start": 1756278600000,
-      "end": 1756280400000,
-      "color": "#f39c12"
+      "end": 1756280400000
     },
     {
       "id": "25",
@@ -74,8 +69,7 @@
       "staff_id": "2",
       "service_ids": ["1", "2", "3"],
       "start": 1756183800000,
-      "end": 1756185600000,
-      "color": "#1abc9c"
+      "end": 1756185600000
     },
     {
       "id": "26",
@@ -85,8 +79,7 @@
       "staff_id": "3",
       "service_ids": ["1", "2"],
       "start": 1755752400000,
-      "end": 1755754200000,
-      "color": "#e91e63"
+      "end": 1755754200000
     },
     {
       "id": "27",
@@ -96,8 +89,7 @@
       "staff_id": "3",
       "service_ids": ["3", "2"],
       "start": 1755147900000,
-      "end": 1755149700000,
-      "color": "#f39c12"
+      "end": 1755149700000
     },
     {
       "id": "28",
@@ -107,8 +99,7 @@
       "staff_id": "3",
       "service_ids": ["1", "2"],
       "start": 1755234300000,
-      "end": 1755236100000,
-      "color": "#f39c12"
+      "end": 1755236100000
     },
     {
       "id": "29",
@@ -118,8 +109,7 @@
       "staff_id": "2",
       "service_ids": ["2", "1"],
       "start": 1755324300000,
-      "end": 1755326100000,
-      "color": "#f39c12"
+      "end": 1755326100000
     },
     {
       "id": "30",
@@ -129,8 +119,7 @@
       "staff_id": "2",
       "service_ids": ["1", "3"],
       "start": 1756188900000,
-      "end": 1756190700000,
-      "color": "#f39c12"
+      "end": 1756190700000
     },
     {
       "id": "33",
@@ -140,8 +129,7 @@
       "staff_id": "8",
       "service_ids": ["5"],
       "start": 1756457400000,
-      "end": 1756459200000,
-      "color": "#f39c12"
+      "end": 1756459200000
     },
     {
       "id": "34",
@@ -151,8 +139,7 @@
       "staff_id": "8",
       "service_ids": ["1", "2", "5"],
       "start": 1756344900000,
-      "end": 1756346700000,
-      "color": "#f39c12"
+      "end": 1756346700000
     },
     {
       "id": "36",
@@ -162,8 +149,7 @@
       "staff_id": "2",
       "service_ids": ["2"],
       "start": 1754099100000,
-      "end": 1754100900000,
-      "color": "#fec3f3"
+      "end": 1754100900000
     },
     {
       "id": "37",
@@ -173,8 +159,40 @@
       "staff_id": "2",
       "service_ids": ["1", "2"],
       "start": 1755066000000,
-      "end": 1755067800000,
+      "end": 1755067800000
+    },
+    {
+      "id": "38",
+      "title": "Procedure Appointment",
+      "type_id": "3",
+      "contact_id": "2",
+      "staff_id": "4",
+      "service_ids": ["1"],
+      "start": 1754020800000,
+      "end": 1754022600000,
       "color": "#e91e63"
+    },
+    {
+      "id": "39",
+      "title": "Consultation Appointment",
+      "type_id": "1",
+      "contact_id": "4",
+      "staff_id": "1",
+      "service_ids": ["8"],
+      "start": 1753935000000,
+      "end": 1753936800000,
+      "color": "#2ecc71"
+    },
+    {
+      "id": "40",
+      "title": "Follow-up Appointment",
+      "type_id": "2",
+      "contact_id": "2",
+      "staff_id": "5",
+      "service_ids": ["2"],
+      "start": 1756440300000,
+      "end": 1756442100000,
+      "color": "#b09973"
     }
   ],
   "appointment_types": [
@@ -191,10 +209,9 @@
       "deleted_at": null
     },
     {
-      "id": "3",
       "label": "Procedure",
-      "color": "#e91e63",
-      "deleted_at": null
+      "color": "#ff1a66",
+      "id": "3"
     },
     {
       "id": "4",
@@ -203,10 +220,9 @@
       "deleted_at": null
     },
     {
-      "id": "5",
       "label": "Follow-Up Weight Loss Consultation",
-      "color": "#95a5a6",
-      "deleted_at": null
+      "color": "#173436",
+      "id": "5"
     },
     {
       "id": "43fd",
@@ -251,47 +267,56 @@
     {
       "id": "1",
       "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "name": "Pilotpractice Support"
+      "name": "Pilotpractice Support",
+      "service_ids": ["8"]
     },
     {
       "id": "2",
       "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "name": "Dr. Reza Keshavarzi"
+      "name": "Dr. Reza Keshavarzi",
+      "service_ids": ["1", "2", "3", "8"]
     },
     {
       "id": "3",
       "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "name": "Lucia Teran"
+      "name": "Lucia Teran",
+      "service_ids": ["1", "2", "3", "6"]
     },
     {
       "id": "4",
       "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "name": "Rose Huber"
+      "name": "Rose Huber",
+      "service_ids": ["1", "6"]
     },
     {
       "id": "5",
       "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "name": "Lily Colas"
+      "name": "Lily Colas",
+      "service_ids": ["2", "3"]
     },
     {
       "id": "6",
       "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "name": "Dr. Pat Pazmiño"
+      "name": "Dr. Pat Pazmiño",
+      "service_ids": ["4", "5", "1"]
     },
     {
       "id": "7",
       "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "name": "Dr. Sarah Johnson"
+      "name": "Dr. Sarah Johnson",
+      "service_ids": ["2", "5", "7", "1"]
     },
     {
       "id": "8",
       "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "name": "Dr. Michael Chen"
+      "name": "Dr. Michael Chen",
+      "service_ids": ["7", "5"]
     },
     {
       "id": "9",
       "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "name": "Dr. Lisa Anderson"
+      "name": "Dr. Lisa Anderson",
+      "service_ids": ["6", "4"]
     }
   ],
   "services": [
@@ -329,128 +354,6 @@
     }
   ],
   "settings": {
-    "visibleContacts": ["3", "4", "1", "2", "5", "6"]
-  },
-  "staff_services": [
-    {
-      "id": "1",
-      "staff_id": "1",
-      "service_id": "8"
-    },
-    {
-      "id": "2",
-      "staff_id": "2",
-      "service_id": "1"
-    },
-    {
-      "id": "3",
-      "staff_id": "2",
-      "service_id": "2"
-    },
-    {
-      "id": "4",
-      "staff_id": "2",
-      "service_id": "3"
-    },
-    {
-      "id": "5",
-      "staff_id": "3",
-      "service_id": "1"
-    },
-    {
-      "id": "6",
-      "staff_id": "3",
-      "service_id": "2"
-    },
-    {
-      "id": "7",
-      "staff_id": "3",
-      "service_id": "3"
-    },
-    {
-      "id": "8",
-      "staff_id": "7",
-      "service_id": "2"
-    },
-    {
-      "id": "9",
-      "staff_id": "7",
-      "service_id": "5"
-    },
-    {
-      "id": "10",
-      "staff_id": "7",
-      "service_id": "7"
-    },
-    {
-      "id": "11",
-      "staff_id": "8",
-      "service_id": "7"
-    },
-    {
-      "id": "12",
-      "staff_id": "6",
-      "service_id": "4"
-    },
-    {
-      "id": "13",
-      "staff_id": "6",
-      "service_id": "5"
-    },
-    {
-      "id": "14",
-      "staff_id": "9",
-      "service_id": "6"
-    },
-    {
-      "id": "15",
-      "staff_id": "4",
-      "service_id": "1"
-    },
-    {
-      "id": "16",
-      "staff_id": "4",
-      "service_id": "6"
-    },
-    {
-      "id": "17",
-      "staff_id": "5",
-      "service_id": "2"
-    },
-    {
-      "id": "18",
-      "staff_id": "5",
-      "service_id": "3"
-    },
-    {
-      "id": "19",
-      "staff_id": "8",
-      "service_id": "5"
-    },
-    {
-      "id": "20",
-      "staff_id": "9",
-      "service_id": "4"
-    },
-    {
-      "id": "21",
-      "staff_id": "6",
-      "service_id": "1"
-    },
-    {
-      "id": "22",
-      "staff_id": "3",
-      "service_id": "6"
-    },
-    {
-      "id": "23",
-      "staff_id": "7",
-      "service_id": "1"
-    },
-    {
-      "id": "24",
-      "staff_id": "2",
-      "service_id": "8"
-    }
-  ]
+    "visibleContacts": ["1", "2", "3", "4", "5", "6"]
+  }
 }
